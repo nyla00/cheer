@@ -1,5 +1,6 @@
 ul{
     float:right;
+    list-style: none;
 }
 a{
     text-decoration: none;
@@ -11,4 +12,58 @@ input {
 .container{
     width:1200px;
     margin:0 auto;
+}
+.events{
+    text-decoration: underline;
+}
+.second{
+    float:right;
+}
+.second,p{
+    float: left;
+}
+.first{
+    float:left;
+}
+.first ,p{
+    float:right;
+}
+h1{
+    text-align: center;
+}
+.banner{
+    margin-top: 120px;
+}
+.banner, img{
+    margin-left: 10px;
+    text-align: center;
+}
+li{
+    float:left;
+    margin-right: 10px;
+}
+/*.photo{*/
+/*    text-align: center;*/
+/*}*/
+/*.tips{*/
+/*    margin-top: 150px;*/
+/*}*/
+.img-circle{
+    border-radius:50%;
+    text-align: center;
+}
+.two{
+    float:right;
+    margin-top: 0px;
+}
+.four{
+    float:right;
+    margin-top: 10px;
+}
+.three{
+    margin-top: 10px;
+}
+.footer{
+    background-color: red;
+    font-size:12px;
 }
