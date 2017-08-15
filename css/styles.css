@@ -18,15 +18,19 @@ input {
 }
 .second{
     float:right;
+    margin-top: 20px;
+    clear:right;
 }
-.second,p{
-    float: left;
-}
+/*.second,p{*/
+/*    float: left;*/
+/*}*/
 .first{
     float:left;
+    margin-top: 20px;
+    clear:left;
 }
 .first ,p{
-    float:right;
+    text-decoration: underline;
 }
 h1{
     text-align: center;
@@ -42,28 +46,49 @@ li{
     float:left;
     margin-right: 10px;
 }
-/*.photo{*/
-/*    text-align: center;*/
-/*}*/
-/*.tips{*/
-/*    margin-top: 150px;*/
-/*}*/
 .img-circle{
     border-radius:50%;
     text-align: center;
+    position: relative;
+    margin-left: 500px;
 }
 .two{
-    float:right;
-    margin-top: 0px;
+    float:left;
 }
 .four{
     float:right;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 .three{
-    margin-top: 10px;
+    margin-top: 50px;
+    float:right;
+    margin-right: 150px;
 }
 .footer{
-    background-color: red;
+    background-color: lightpink;
     font-size:12px;
+    margin-top: 600px;
+}
+.textbox,p{
+    line-height: 50px;
+}
+.one{
+    float:left;
+    margin-left: 140px;
+}
+.tips{
+    margin-top: 200px;
+}
+.foot{
+    background-color: lightpink;
+    font-size:12px;
+    margin-top: 1200px;
+}
+.foots{
+    background-color: lightpink;
+    font-size:12px;
+    margin-top: 800px;
+}
+button{
+    background-color: lightblue;
 }
